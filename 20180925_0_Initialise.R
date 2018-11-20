@@ -10,8 +10,9 @@ source("20180925_ReadMeterData.R")
 source("20181025_JoinMetersToCadastral.R")
 source("20181114_LoadFunctions.R")
 
-municipal_geo <- c("-33.6439385","19.4430873") 
+municipal_geo <- c(19.4430873,-33.6439385,"Municipal") 
 numb <- readinteger()
+99
 
 source("20181115_Clustering.R")
 
